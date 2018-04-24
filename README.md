@@ -24,6 +24,7 @@ Eg: ./iKarieraTasks -option=1 -n=99999
       or
     ./iKarieraTasks -option=2 -primelimit=1000
 ```
+Note: Option 1 for CalculatePi and Option 2 for Frequency of digits in Prime Numbers</br></br>
 Usage of ./iKarieraTasks:</br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-n int </br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enter number of terms (n) to calculate pi. (default 99999)</br>
@@ -31,7 +32,9 @@ Usage of ./iKarieraTasks:</br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Provide 1 for CalculatePi or
 	Provide 2 for Frequency of digits in Prime Numbers. (default 1)</br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-primelimit int</br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enter the limit to find Prime Numbers. (default 1000)
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enter the limit to find Prime Numbers. (default 1000)</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--h | --help </br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Help page or Usage of CLI is displayed
 
 ### CalculatePi
 This problem is to calculate pi value based on the number of terms n given. The default value of n is taken as 99999 if not provided any input. The higher the n value, more accurate the pi value. </br>
@@ -39,7 +42,7 @@ Eg: a(10) = 3.0418396 </br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a(99999) = 3.1416059
 
 ### Frequency of digits in all Prime Numbers
-For a given integer limit, this problem finds all the prime numbers and finds the Frequency of digits in all prime numbers. The default value is 1000 if the input is not provided. 
+For a given integer limit, this problem finds all the prime numbers and finds the Frequency of digits in all prime numbers. The default value is 1000 if the input is not provided.
 
 ### Alternate way
   If Golang is not supported in your system or facing some issues in running the project, the same mathematical tasks are implemented in simple C++ programs. The c++ programs are available under C++ folder.
