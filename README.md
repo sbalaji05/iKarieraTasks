@@ -1,4 +1,4 @@
-## iKariera Tasks
+# iKariera Tasks
 
 This project is about a Command Line Tool which solves mathematical problems using Golang. There are two following problems.
   * Calculate Pi for given n number of terms
@@ -8,9 +8,10 @@ This project is about a Command Line Tool which solves mathematical problems usi
 git clone https://github.com/sbalaji05/iKarieraTasks.git
 ```
 
-### Why Go?
+## Why Go?
   * Write Once, Run Anywhere (WORA)
   * Goroutines - functions or methods that run concurrently with other functions (lightweight thread).
+  * Multiple Return values in a function
   * Better Performance, simple and safe
   * Open Source
 
@@ -20,14 +21,16 @@ Install Golang for Ubuntu using the following command
 sudo apt-get install golang-go
 ```
 
-### Usage
+## Usage
 
 ```
 go build
-./iKarieraTasks -option=choice of problem -n=Number of terms -primelimit=limit range for prime numbers
+./iKarieraTasks -option=<choice of problem> -n=<n terms for pi> -primelimit=<limit for prime numbers>
 
-Eg: ./iKarieraTasks -option=1 -n=99999
+Eg: go build
+    ./iKarieraTasks -option=1 -n=99999
       or
+    go build
     ./iKarieraTasks -option=2 -primelimit=1000
 ```
 Note: Option 1 for CalculatePi and Option 2 for Frequency of digits in Prime Numbers</br></br>
