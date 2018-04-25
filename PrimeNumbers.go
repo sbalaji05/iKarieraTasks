@@ -22,7 +22,7 @@ func GetFrequency(num int) []int {
 	return frequency_Array
 }
 
-// Function to find Prime Numbers till given primelimit and to find frequency of digits in all prime numbers
+// Function to find Prime Numbers till given limit and to find frequency of digits in all prime numbers
 func Prime_Numbers(primelimit int) {
 	var count int
 	var final_frequency_Array = make([]int, 10)
@@ -30,7 +30,7 @@ func Prime_Numbers(primelimit int) {
 	fmt.Println("\nThe Prime numbers from 1 to",primelimit,"is ")
 	fmt.Println("----------------------------------------\n")
 
-	for i := 2; i < primelimit; i++ { // Find prime numbers till 1000
+	for i := 2; i < primelimit; i++ { // Find prime numbers till limit
 		isPrime := true
 		for j := 2; j < i; j++ {
 			if i%j == 0 {

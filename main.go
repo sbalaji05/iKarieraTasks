@@ -11,9 +11,9 @@ func main() {
 	var ErrorMsg string
 	// By defualt the program takes input as 1 which is CalculatePi problem
 	flag.IntVar(&option, "option", 1, "Provide 1 for CalculatePi or \n\tProvide 2 for Frequency of digits in Prime Numbers.")
-	// By default the n of terms is taken as 99999 if not provided manually
+	// By default the number of terms n is taken as 99999 if input not provided
 	flag.IntVar(&n, "n", 99999, "Enter number of terms (n) to calculate pi.")
-	// By default prime numbers are found from 1 to 1000 if not provided
+	// By default prime numbers are found from 1 to 1000 if input not provided
 	flag.IntVar(&primelimit, "primelimit", 1000, "Enter the limit to find Prime Numbers.")
 	flag.Parse()
 
