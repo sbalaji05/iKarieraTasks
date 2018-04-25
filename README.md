@@ -1,8 +1,8 @@
 # iKariera Tasks
 
-This project is about a Command Line Tool which solves mathematical problems using Golang. There are two following problems.
-  * Calculate Pi for given n number of terms
-  * Frequency of digits in all Prime Numbers
+This project is about a Command Line Tool which solves mathematical problems using Golang. There are two following problems implemented in the tool.
+  1. Calculate Pi for given n number of terms
+  2. Frequency of digits in all Prime Numbers
 
 ```
 git clone https://github.com/sbalaji05/iKarieraTasks.git
@@ -45,12 +45,12 @@ Usage of ./iKarieraTasks:</br>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--h | --help </br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Help page or Usage of CLI is displayed
 
-### CalculatePi
+### 1. CalculatePi
 This problem is to calculate pi value based on the number of terms n given. The default value of n is taken as 99999 if not provided any input. The higher the n value, more accurate the pi value. </br>
 Eg: a(10) = 3.0418396 </br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a(99999) = 3.1416059
 
-### Frequency of digits in all Prime Numbers
+### 2. Frequency of digits in all Prime Numbers
 For a given integer limit, this problem finds all the prime numbers and finds the frequency of digits in all prime numbers. The default value is 1000 if the input is not provided.
 
 ### Alternate way
